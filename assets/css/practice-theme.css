@@ -1,0 +1,22 @@
+
+/* Practice palette */
+:root {
+  --accent: #2E3A78;
+  --accent-dark: #1D2650;
+  --accent-soft: #EEF0F8;
+  --accent-warm: #C6A15B;
+}
+a[class*="button"], .button, button[type="submit"], input[type="submit"],
+[class*="btn"]:not([class*="text"]) {
+  background-color: #2E3A78 !important;
+  border-color: #2E3A78 !important;
+}
+a[class*="button"]:hover, .button:hover, [class*="btn"]:not([class*="text"]):hover {
+  background-color: #1D2650 !important;
+  border-color: #1D2650 !important;
+}
+[class*="section"][class*="dark"], footer[class*="footer"] {
+  background-color: #1D2650 !important;
+}
+[class*="tag"], [class*="badge"], [class*="eyebrow"] { color: #2E3A78 !important; }
+::selection { background: #2E3A78; color: #fff; }
